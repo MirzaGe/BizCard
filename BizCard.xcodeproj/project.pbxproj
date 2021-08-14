@@ -11,6 +11,7 @@
 		442D237226C840650002FCFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D237126C840650002FCFF /* ContentView.swift */; };
 		442D237426C8406A0002FCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442D237326C8406A0002FCFF /* Assets.xcassets */; };
 		442D237726C8406A0002FCFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442D237626C8406A0002FCFF /* Preview Assets.xcassets */; };
+		44F1505826C87652001D5E23 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F1505726C87652001D5E23 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		442D237326C8406A0002FCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442D237626C8406A0002FCFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		442D237826C8406A0002FCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F1505726C87652001D5E23 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		442D236E26C840650002FCFF /* BizCard */ = {
 			isa = PBXGroup;
 			children = (
+				44F1505626C87634001D5E23 /* View */,
 				442D236F26C840650002FCFF /* BizCardApp.swift */,
 				442D237126C840650002FCFF /* ContentView.swift */,
 				442D237326C8406A0002FCFF /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				442D237626C8406A0002FCFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44F1505626C87634001D5E23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44F1505726C87652001D5E23 /* CircleImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				442D237226C840650002FCFF /* ContentView.swift in Sources */,
 				442D237026C840650002FCFF /* BizCardApp.swift in Sources */,
+				44F1505826C87652001D5E23 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,18 +7,14 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     var body: some View {
         HStack {
             
-            Image("sherry1")
-                .resizable()
-            .scaledToFit()
-                .clipShape(Circle())
-                .overlay(Circle()
-                    .stroke(Color.white, lineWidth: 3))
-                .shadow(radius: 5)
-//                .frame(width: 180, height:180, alignment: .center)
+            CircleImage(imagaName: "sherry1")
+            //                .frame(width: 180, height:180, alignment: .center)
             
             
             VStack() {
@@ -43,12 +39,12 @@ struct ContentView: View {
             }
             
         }.frame(width: 380, height: 200)
-        .background(Color.green)
+        .background(Color.orange)
         .cornerRadius(8)
         .shadow(radius: 5)
         
         
-}
+    }
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
